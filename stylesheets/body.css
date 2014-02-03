@@ -1,7 +1,7 @@
 
 body {
 	margin-top: 0px;
-	background: url(/images/catzo_3.png) no-repeat center;
+	background: url(../images/catzo_3.png) no-repeat center;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -10,15 +10,44 @@ body {
 }
 
 
-div#container{
+div.container{
 	position:fixed;
 	top:0;
 	bottom:0;
 	right:0;
 	left:0;
-	background: transparent url(/images/bg_4.png) repeat;
-	background-position: center;
 }
+
+div#interlace1 {
+  background: transparent url(../images/bg_4.png) no-repeat center;
+  left: 1px;
+  animation-duration: 3s;
+  animation-name: rightThenLeft;
+  animation-iteration-count: infinite;
+  
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: rightThenLeft;
+  -webkit-animation-name: rightThenLeft;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: -4px;}
+    50%  {left: 0;}
+    100% {left: 4px;}
+}
+
+@-moz-keyframes rightThenLeft {
+    0%   {left: -3px;}
+    50%  {left: 0;}
+    100% {left: 6px;}
+}
+
 
 div#links{
 	width="204";
