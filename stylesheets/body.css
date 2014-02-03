@@ -19,7 +19,7 @@ div.container{
 }
 
 div#interlace1 {
-  background: transparent url(../images/bg_4.png) no-repeat center;
+  background: transparent url(../images/bg_5.png) no-repeat center;
   left: 1px;
   animation-duration: 3s;
   animation-name: rightThenLeft;
