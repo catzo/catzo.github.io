@@ -43,9 +43,9 @@ div#interlace1 {
 }
 
 @-moz-keyframes rightThenLeft {
-    0%   {left: -3px;}
+    0%   {left: -4px;}
     50%  {left: 0;}
-    100% {left: 6px;}
+    100% {left: 4px;}
 }
 
 
