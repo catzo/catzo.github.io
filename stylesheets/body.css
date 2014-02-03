@@ -21,7 +21,7 @@ div.container{
 div#interlace1 {
   background: transparent url(../images/bg_3.png) no-repeat center;
   left: 2px;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-name: rightThenLeft;
   animation-iteration-count: infinite;
   
