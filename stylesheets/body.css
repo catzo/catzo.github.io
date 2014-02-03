@@ -20,31 +20,31 @@ div.container{
 
 div#interlace1 {
   background: transparent url(../images/bg_3.png) no-repeat center;
-  left: 1px;
-  animation-duration: 3s;
+  left: 2px;
+  animation-duration: 10s;
   animation-name: rightThenLeft;
   animation-iteration-count: infinite;
   
- /*  
-  -moz-animation-duration: 3s;
-  -webkit-animation-duration: 3s;
+
+  -moz-animation-duration: 10s;
+  -webkit-animation-duration: 10s;
   -moz-animation-name: rightThenLeft;
   -webkit-animation-name: rightThenLeft;
   -moz-animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-direction: alternate;
   -webkit-animation-direction: alternate;
-  */
+
 }
 
 @-webkit-keyframes rightThenLeft {
-    0%   {left: -4px;}
+    0%   {left: -5px;}
     50%  {left: 0;}
     100% {left: 4px;}
 }
 
 @-moz-keyframes rightThenLeft {
-    0%   {left: -3px;}
+    0%   {left: 5px;}
     50%  {left: 0;}
     100% {left: 6px;}
 }
