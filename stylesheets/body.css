@@ -38,13 +38,13 @@ div#interlace1 {
 }
 
 @-webkit-keyframes rightThenLeft {
-    0%   {left: -5px;}
+    0%   {left: -2px;}
     50%  {left: 0;}
     100% {left: 4px;}
 }
 
 @-moz-keyframes rightThenLeft {
-    0%   {left: 5px;}
+    0%   {left: -2px;}
     50%  {left: 0;}
     100% {left: 6px;}
 }
